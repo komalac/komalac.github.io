@@ -1,2 +1,2 @@
 # komalac.github.io
-My personal bi page
+My personal bio page
