@@ -1,0 +1,160 @@
+<!DOCTYPE = html>
+<html lang = "en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pymaceuticals Inc.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </head>
+    <body class="bg-light">
+        <nav class="navbar navbar-expand-sm navbar-fixed-top bg-dark navbar-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- Brand -->
+                        <a class="navbar-brand" href="index.html"><img src="logo.png" alt="Logo"></a>
+                        
+                    </div>
+                    <div class="col-md-9">
+                        <!-- Links -->
+                        <ul class="navbar-nav text-right">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="rawdata.html">Raw Data</a>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="comp.html">Comparisons</a>
+                                        </li>
+                                    </div>
+                                
+                                    <div class="col-md-4">
+                                        <!-- Dropdown -->
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" aria-labelledby="navbarDropdown">
+                                            Visuals
+                                            </a>
+                                            <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="tumor_volume.html">Tumor volume</a>
+                                            <a class="dropdown-item" href="mat_site.html">Metastatic site</a>
+                                            <a class="dropdown-item" href="sur_rate.html">Survival Rate</a>
+                                            <a class="dropdown-item" href="tumor_change.html">% Change in Tumor</a>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>   
+        </nav>
+        <br>
+                  
+        
+        <br>
+        <div class="container">            
+            <div class="row">                    
+                <div class="col-md-6"> 
+                    <div class="container bg-white">
+                            <div class="row">
+                                    <div class="col-md-12">
+                                        <br>
+                                        <h4 class="text-dark text-left">
+                                                Tumor treatment Analysis
+                                        </h4>
+                                    </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>
+                                        <img class = "img-fluid" alt="cancer" src="head.jpg" width="300", height="200">  
+                                    </p>
+                                </div>                                
+                                <div class="col-md-6">            
+                                    <b>Pymaceuticals Inc.</b>, is based out of San Diego, CA. Pymaceuticals specializes in drug-based, anti-cancer pharmaceuticals. In our most recent efforts, we begun screening for potential treatments to squamous cell carcinoma (SCC).   
+                                </div>                                      
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-12">            
+                                    <p class="text-justify align-middle">
+                                        Purpose of this project was to analyze how tumor responds to each drug in study. Two datasets, 'Clinical trail' and 'Drug data' are used in this analysis. This dataset records the observation of treatment given to 250 mouse with 10 different drugs.
+                                    </p>
+                                </div>
+                            </div>                           
+                    </div>
+                </div>
+                    
+                <div class="col-md-6"> 
+                    <div class="container bg-white">
+                            <div class="row">
+                                    <div class="col-md-12">
+                                        <br>
+                                        <h4 class="text-dark text-center">
+                                                Visualizations
+                                        </h4>
+                                    </div>                                    
+                            </div>
+                            <br>
+                            <div class="row">
+                                    <div class="col-md-6">
+                                      <div>
+                                        <a href="tumor_volume.html">
+                                            <img class="img-thumbnail" alt="Tumor Response to treatment" src="Tumor Response to treatment.jpg">
+                                            <div class="caption text-dark text-center">
+                                            <p>Tumor respose</p>
+                                          </div>
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div>
+                                        <a href="mat_site.html">
+                                            <img class="img-thumbnail" alt="Metastatic spread during treatment" src="Metastatic spread during treatment.jpg">
+                                            <div class="caption text-dark text-center">
+                                            <p>Metastatic spread</p>
+                                          </div>
+                                        </a>
+                                      </div>
+                                    </div>                                   
+                        </div>
+                        <div class="row">
+                                <div class="col-md-6">
+                                  <div>
+                                    <a href="sur_rate.html">
+                                        <img class="img-thumbnail" alt="Survival rates" src="Survival rates.jpg">
+                                        <div class="caption text-dark text-center">
+                                        <p>Survival rates</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div>
+                                    <a href="tumor_change.html">
+                                        <img class="img-thumbnail" alt="Tumor change over 45 days of treatment" src="Tumor change.jpg">
+                                        <div class="caption text-dark text-center">
+                                        <p>Tumor change</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>                                   
+                    </div>
+                    </div>
+                                        
+                </div>
+            </div>
+        </div><br><br>
+        
+    </body>
+</html>
